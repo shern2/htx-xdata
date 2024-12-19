@@ -1,0 +1,30 @@
+services:
+
+  asr-api:
+    image: asr-api${VERSION:-latest}
+    container_name: asr-api
+    platform: linux/x86_64
+    build: .
+    ports:
+      - '8001:8001'
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    user: 1000:1000
+
+    tty: true
+    stdin_open: true
+    ipc: "host"
+    # network_mode: 'host'
+    # command: [ "sh", "-c", "tail -f /dev/null" ] # TODO [ss] self-reminder to comment out
+
+    # env_file:
+    #   - .env
+
+    volumes:
+      - .:/app
+      - ./data/common_voice:/app/data/common_voice

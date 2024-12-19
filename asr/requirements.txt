@@ -1,0 +1,39 @@
+# python3.10
+
+# API / server
+
+fastapi==0.115.6
+fastapi-utils==0.8.0
+pydantic==2.10.3
+gunicorn==23.0.0
+uvicorn==0.32.1
+httpx==0.28.1
+tenacity==8.2.3
+
+fastapi
+fastapi-utils
+pydantic
+gunicorn
+uvicorn
+httpx
+tenacity
+
+# General
+numpy==1.24.4
+pandas==2.0.3
+pyarrow==14.0.1
+torch
+transformers
+
+# app-specific
+python-multipart==0.0.19
+pydub==0.25.1
+
+# [code-dev] formatting
+black==23.11.0
+
+# facilitate debugging
+ipython==8.12.3
+ipykernel==6.29.5
+# for profiling
+# yappi

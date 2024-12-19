@@ -1,0 +1,153 @@
+/tmp/ipykernel_3725850/865279226.py:180: ExperimentalWarning: TensorBoardCallback is experimental (supported from v2.0.0). The interface can change in the future.
+  tensorboard_callback = TensorBoardCallback(trials_dir.as_posix(), metric_name="best_wer")
+[I 2024-12-16 21:34:35,359] A new study created in memory with name: no-name-d0e8117b-0daf-4b09-bf04-130e700d3fba
+INFO:root:i_step_do_eval: 27384.0
+INFO:root:num tunable parameters: 32800
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:[global_step=27392] Saving model with new best WER: 0.14340
+INFO:root:(epoch, global_step) = (1, 27392), loss/train: -1152328.3810, loss/val: -499.5666, wer: 0.1434
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (1, 54776), loss/train: -3060604.6905, loss/val: -555.3289, wer: 0.1737
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (1, 82160), loss/train: -4968520.7969, loss/val: -557.4437, wer: 0.1585
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (1, 109544), loss/train: -6868777.7633, loss/val: -558.2652, wer: 0.1628
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (1, 136928), loss/train: -8738950.6900, loss/val: -558.9305, wer: 0.1588
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:[global_step=164311] Saving model with new best WER: 0.13299
+INFO:root:(epoch, global_step) = (2, 164311), loss/train: -9892507.1808, loss/val: -501.6295, wer: 0.1330
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (2, 191695), loss/train: -11798994.3019, loss/val: -559.0289, wer: 0.1673
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (2, 219079), loss/train: -13695942.9797, loss/val: -557.9134, wer: 0.1662
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (2, 246463), loss/train: -15613679.3655, loss/val: -559.3699, wer: 0.1582
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (2, 273847), loss/train: -17500391.2097, loss/val: -558.3240, wer: 0.1591
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (3, 301230), loss/train: -18658375.1688, loss/val: -507.4844, wer: 0.1442
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (3, 328614), loss/train: -20518659.1139, loss/val: -558.7125, wer: 0.1585
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (3, 355998), loss/train: -22398896.9789, loss/val: -559.5355, wer: 0.1608
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (3, 383382), loss/train: -24309635.8862, loss/val: -559.2463, wer: 0.1507
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (3, 410766), loss/train: -26195512.1679, loss/val: -559.8181, wer: 0.1524
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (4, 438149), loss/train: -27372038.5080, loss/val: -507.8888, wer: 0.1473
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (4, 465533), loss/train: -29274468.6690, loss/val: -559.6744, wer: 0.1609
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (4, 492917), loss/train: -31141665.4745, loss/val: -559.0488, wer: 0.1542
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (4, 520301), loss/train: -33011076.1980, loss/val: -559.9795, wer: 0.1608
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (4, 547685), loss/train: -34904020.9591, loss/val: -560.2685, wer: 0.1550
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (5, 575068), loss/train: -36052743.8996, loss/val: -507.1116, wer: 0.1439
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (5, 602452), loss/train: -37944361.2905, loss/val: -557.3617, wer: 0.1738
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (5, 629836), loss/train: -39854722.1109, loss/val: -558.7928, wer: 0.1528
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (5, 657220), loss/train: -41755342.7931, loss/val: -559.0897, wer: 0.1495
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (5, 684604), loss/train: -43646911.2216, loss/val: -560.0045, wer: 0.1583
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (6, 711987), loss/train: -44808863.0308, loss/val: -502.5534, wer: 0.1356
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (6, 739371), loss/train: -46701395.6492, loss/val: -558.8338, wer: 0.1624
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (6, 766755), loss/train: -48601243.4353, loss/val: -558.8675, wer: 0.1377
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (6, 794139), loss/train: -50499248.0359, loss/val: -559.1963, wer: 0.1470
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (6, 821523), loss/train: -52380762.4126, loss/val: -558.8855, wer: 0.1469
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (7, 848906), loss/train: -53565084.3159, loss/val: -505.8403, wer: 0.1489
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (7, 876290), loss/train: -55439278.3893, loss/val: -556.1766, wer: 0.1727
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (7, 903674), loss/train: -57337916.7982, loss/val: -559.8637, wer: 0.1628
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (7, 931058), loss/train: -59226108.7768, loss/val: -558.8371, wer: 0.1499
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (7, 958442), loss/train: -61153251.5754, loss/val: -559.1564, wer: 0.1397
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (8, 985825), loss/train: -62329965.2866, loss/val: -508.0561, wer: 0.1466
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (8, 1013209), loss/train: -64188127.2005, loss/val: -559.2531, wer: 0.1654
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (8, 1040593), loss/train: -66088071.8121, loss/val: -558.4346, wer: 0.1397
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (8, 1067977), loss/train: -68017715.3975, loss/val: -559.2420, wer: 0.1527
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (8, 1095361), loss/train: -69941833.5227, loss/val: -560.7250, wer: 0.1562
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (9, 1122752), loss/train: -71147702.3217, loss/val: -508.7641, wer: 0.1513
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (9, 1150136), loss/train: -73029160.0435, loss/val: -558.3670, wer: 0.1683
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (9, 1177520), loss/train: -74901098.7872, loss/val: -558.9535, wer: 0.1706
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (9, 1204904), loss/train: -76811752.1889, loss/val: -560.0940, wer: 0.1678
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (9, 1232288), loss/train: -78674645.4955, loss/val: -559.8953, wer: 0.1518
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (10, 1259671), loss/train: -79881335.2761, loss/val: -506.3071, wer: 0.1338
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (10, 1287055), loss/train: -81766569.8141, loss/val: -558.6690, wer: 0.1678
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
+INFO:root:(epoch, global_step) = (10, 1314439), loss/train: -83645943.1803, loss/val: -559.5721, wer: 0.1729
+WARNING:root:Encountered NaN or Inf in validation loss. Skipping this batch.
+WARNING:root:batch['filename']: ['cv-valid-train/sample-075795.mp3', 'cv-valid-train/sample-023363.mp3', 'cv-valid-train/sample-093628.mp3', 'cv-valid-train/sample-014576.mp3', 'cv-valid-train/sample-074754.mp3', 'cv-valid-train/sample-145014.mp3', 'cv-valid-train/sample-122947.mp3', 'cv-valid-train/sample-062523.mp3']
